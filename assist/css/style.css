@@ -41,6 +41,42 @@ padding: 30px;
  word-break: break-all;
 }
 /* people section end */
+/* about section start */
+#about{
+    background-color: #142954;
+    color: white;
+    word-break: break-all;
+}
+#about #btn{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 7px 50px;
+    transition: all 0.4s;
+}
+#about #btn:hover{
+    background-color: white;
+    color: #142954;
+}
+/* about section end */
+/* lorem section start */
+#lorem p{
+    word-break: break-all;
+}
+/* lorem section end */
+/* footer section start */
+footer{
+    height: 80px;
+    text-align: center;
+    background-color: #142954;
+    color: white;
+}
+footer p{
+    line-height: 80px;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* footer section end */
 
 
 
@@ -70,9 +106,17 @@ padding: 30px;
     main .col-md-7{
         padding-top: 0px;
     }
+    footer p{
+        font-size: 16px;
+    }
 }
 /* max-width 768px */
 
 /* max-width 576px */
-
+@media screen and (max-width:576px) {
+    
+    footer p{
+        font-size: 12px;
+    }
+}
 /* max-width 576px */
